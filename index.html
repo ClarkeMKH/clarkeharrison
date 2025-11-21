@@ -229,6 +229,7 @@
                     const listItem = createHTMLElement("div", "", "", "", "listItem", listArea);
 					const EditPic = createHTMLElement("img", "", "", "", "", listItem, function() {
 						editPageContents(pageName, pageArea);
+						togglePanel();
 					});
 					EditPic.src = "https://www.clarkeharrison.co.uk/Assets/edit.png";
                     const itemText = createHTMLElement("div", pageName, "", "", "", listItem, function() {
@@ -430,6 +431,7 @@
         </script>
     </body>
 </html>
+
 
 
 
